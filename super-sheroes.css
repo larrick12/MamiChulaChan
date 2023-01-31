@@ -1,0 +1,31 @@
+body {
+    background-image: url("ayrielle.JPG"), url("ruth.jpg"), url("temi.jpg");
+    background-repeat: no-repeat;
+    filter: brightness(120%);
+    display: block;
+   
+       
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.Contacts {
+    margin-top: 30px;
+    font-size: large;
+}
+
+.faq {
+    margin-top: 30px;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    
+}
