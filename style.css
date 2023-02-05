@@ -99,7 +99,7 @@ h6, p, h1, h3{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 5px;
-    min-height: 900p;
+    min-height: 900px;
 }
 
 .image-container{
