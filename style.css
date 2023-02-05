@@ -1,3 +1,7 @@
+body {
+    font-family: Georgia;
+}
+
 .main {
     position: relative;
     padding: 10px;
@@ -41,14 +45,14 @@ h6, p, h1, h3{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: xx-large;
-    align-items: stretch;
+    font-size: x-large;
+    align-items:stretch;
     width:13%;
     background: rgb(127, 126, 116);
     border-radius: 3px;
-    padding: 5px 70px;
+    padding: 2px 30px;
     cursor: pointer;
-    background-image: url("logs.png");
+    background-image: url("./images/logs.png");
     background-color: gray;
 }
 
@@ -106,6 +110,7 @@ h6, p, h1, h3{
     width:  500px;
     height: 700px;
     object-fit: contain;
+    text-align: center;
 }
 
 .image-fluid{
@@ -125,21 +130,27 @@ h6, p, h1, h3{
     color: #000;
 }
 
-
 .texts h6{
     font-size: medium;
 }
 
 .contacts {
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: large;
     color: #000;
 }
 
-.faq {
-    margin-top: 30px;
-    font-size: medium;
+.contacts a {
+    font-size: 30px;
 }
+
+.faq {
+    margin-top: 40px;
+    font-size: medium;
+    background-color: beige;
+    text-align: center;
+}
+
 footer {
     text-align: center;
     font-size: medium;
@@ -149,19 +160,29 @@ footer {
 
 /* PHONE VERSION */
 @media screen and (min-width: 320px) {
- h1 {
+    h1 {
     color:blue;
+    }
+    .image-container{
+        width: 25%;
     }
 }
 /* TABLET VERSION */
 @media screen and (min-width: 768px) {
- h1 {
+    h1 {
     color:green; 
     }
+    .image-container{
+        width: 50%;
+    }
 }
+
 /* DESKTOP VERSION */
 @media screen and (min-width: 980px) {
- h1 {
+    h1 {
     color:yellow;
+    }
+    .image-container{
+        width: 100%;
     }
 }
