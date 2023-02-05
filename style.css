@@ -11,9 +11,10 @@ body {
 .main {
     position: relative;
     padding: 10px;
-    background: #333;
+    background: lightpink;
     color: white;
 }
+
 
 h6, p, h1, h3{
     margin: 0;
@@ -42,20 +43,22 @@ h6, p, h1, h3{
     font-weight: bolder;
     padding: 0px 0px 20px 0px;
     cursor: pointer;
-
+    color: gray;
 }
 
 .company .navbar .brand{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: medium;
-    align-items: center;
-    width: 12%;
-    background: rgb(5, 154, 224);
+    font-size: xx-large;
+    align-items: stretch;
+    width:13%;
+    background: rgb(127, 126, 116);
     border-radius: 3px;
-    padding: 5px 30px;
+    padding: 5px 70px;
     cursor: pointer;
+    background-image: url("logs.png");
+    background-color: gray;
 }
 
 #form{
@@ -130,6 +133,7 @@ h6, p, h1, h3{
     padding: 10px 5px;
     margin: 10% 0;
     cursor: pointer;
+    color: #000;
 }
 
 .texts h6{
@@ -137,9 +141,11 @@ h6, p, h1, h3{
 }
 
 
+
 .Contacts {
     margin-top: 30px;
     font-size: large;
+    color: #000;
 }
 
 .faq {
@@ -148,5 +154,5 @@ h6, p, h1, h3{
 footer {
     text-align: center;
     margin-top: 30px;
-    
+    color: #000;
 }
