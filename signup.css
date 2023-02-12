@@ -25,7 +25,7 @@
   
   input[type=text]:focus,
   input[type=password]:focus {
-    background-color: #ddd;
+    background-color: cornsilk;
     outline: none;
   }
   
@@ -34,6 +34,20 @@
     margin-bottom: 25px;
   }
   
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+  }
+
+   /* Avatar image */
+   img.avatar {
+    width: 20%;
+    border-radius: 3%;
+  }
+
   /* Set a style for all buttons */
   button {
     background-color: limegreen;
@@ -162,7 +176,7 @@
   /* DESKTOP VERSION */
   @media screen and (min-width: 980px) {
     h1 {
-      color: yellow;
+      color: black;
     }
   
     .container {

@@ -1,0 +1,43 @@
+.message-btn-primary:hover {
+    color: beige;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.message-btn-primary:focus, .message-btn-primary.focus {
+    color: beige;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 2px rgba(38, 143, 255, 0.5);
+}
+
+.message-btn-lg, .message-btn-group-lg>.message-btn {
+    padding: 4px 7px;
+    font-size: medium;
+    line-height: 0.5;
+    border-radius: 7px;
+}
+
+.message-btn-block {
+    display: block;
+    width: 20%;
+}
+
+.message-btn-block+.message-btn-block {
+    margin: 4px 0;
+}
+
+input[type="submit"].message-btn-block, input[type="reset"].message-btn-block, input[type="button"].message-btn-block {
+    width: 10%;
+}
+
+.message-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 16px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    font-display: medium;
+}
